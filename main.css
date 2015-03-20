@@ -1,0 +1,82 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/* CSS Document */
+
+/*--------------------------------------------------------
+Navigation
+----------------------------------------------------------*/
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	color:#07471A;
+}
+.nav navbar-nav {
+	padding: 20px;
+}
+
+/*----------------------------------------------------------
+Body
+----------------------------------------------------------*/
+body{
+	background-image:url(Images/spabackground.jpg);
+}
+/*------------------------------------------------------------
+Jumbotron
+--------------------------------------------------------------*/
+.jumbotron {
+		margin-top: 0;
+		height: 500px;
+		background-image:url(Images/spajumbo.jpg);
+}
+
+.jumbotron .container {
+	    position: relative;
+		top: 15px;
+}
+
+.jumbotron h2 {
+	   position: relative;
+	   left: 80px;
+	   vertical-align: center;
+	   color: #FFFFFF;
+	   font-size: 32px;
+	   text-align: center;
+	   font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	   border: 2px white;
+}
+
+#relaxheader {
+	   color:#FFFFFF;
+	   text-align:center;
+}
+/*--------------------------------------------------------------------
+Form
+----------------------------------------------------------------------*/
+.appointment {
+	position: relative;
+	   margin-left: auto;
+	   margin-right: auto;
+}
+
+form {
+    color:#FFFFFF;
+}
