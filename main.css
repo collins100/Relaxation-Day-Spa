@@ -41,7 +41,7 @@ nav a:hover {
 Body
 ----------------------------------------------------------*/
 body{
-	background-image:url(Images/upfeathers.png);
+	background-image:url(Images/background-grey.jpg);
 }
 /*------------------------------------------------------------
 Jumbotron
@@ -84,6 +84,6 @@ Form
 	   margin-right: auto;
 }
 
-/*form {
+form {
     color:#FFFFFF;
 }
