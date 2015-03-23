@@ -33,11 +33,15 @@ Navigation
 	padding: 20px;
 }
 
+nav a:hover {
+	color:#C8BF93;
+}
+
 /*----------------------------------------------------------
 Body
 ----------------------------------------------------------*/
 body{
-	background-image:url(Images/spabackground.jpg);
+	background-image:url(Images/upfeathers.png);
 }
 /*------------------------------------------------------------
 Jumbotron
@@ -46,7 +50,9 @@ Jumbotron
 		margin-top: 0;
 		height: 500px;
 		background-image:url(Images/spajumbo.jpg);
+		
 }
+
 
 .jumbotron .container {
 	    position: relative;
@@ -60,13 +66,14 @@ Jumbotron
 	   color: #FFFFFF;
 	   font-size: 32px;
 	   text-align: center;
-	   font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	   font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	   border: 2px white;
 }
 
 #relaxheader {
 	   color:#FFFFFF;
 	   text-align:center;
+	   font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 /*--------------------------------------------------------------------
 Form
@@ -77,6 +84,6 @@ Form
 	   margin-right: auto;
 }
 
-form {
+/*form {
     color:#FFFFFF;
 }
