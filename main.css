@@ -28,12 +28,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 /* CSS Document */
 
+/*---------------------------------------------------------
+Header
+-----------------------------------------------------------*/
+#top_header img {
+	width: 420px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
 /*--------------------------------------------------------
 Navigation
 ----------------------------------------------------------*/
 .navbar-nav > li{
   padding-left:30px;
   padding-right:30px;
+}
+
+nav{
+	margin-bottom:0px;
 }
 
 .navbar{
@@ -44,7 +57,7 @@ Navigation
 	color:#07471A;
 }
 .nav navbar-nav {
-	padding: 20px;
+	padding: 0px;
 }
 
 nav a:hover {
@@ -55,15 +68,17 @@ nav a:hover {
 Body
 ----------------------------------------------------------*/
 body{
-	background-image:url(Images/background-grey.jpg);
-}
+	   background-image:url(Images/seamless_paper_texture.png);
+
+
 /*------------------------------------------------------------
 Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
-		margin-top: 0;
+		margin-top: 0px;
 		height: 500px;
 		background-image:url(Images/spajumbo.jpg);
+		padding-top: 0px;
 		
 }
 
@@ -71,6 +86,8 @@ Jumbotron
 .jumbotron .container {
 	    position: relative;
 		top: 15px;
+		margin-top: 0px;
+		padding-top: 0px;
 }
 
 .jumbotron h2 {
@@ -82,6 +99,8 @@ Jumbotron
 	   text-align: center;
 	   font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	   border: 2px white;
+	   opacity: .65;
+	   border:dotted, #DCDCDC;
 }
 
 #relaxheader {
@@ -93,11 +112,17 @@ Jumbotron
 Form
 ----------------------------------------------------------------------*/
 .appointment {
-	position: relative;
-	   margin-left: auto;
-	   margin-right: auto;
+	  position: relative;
+	  margin-left: auto;
+	  margin-right: auto;
 }
 
 form {
-    color:#FFFFFF;
+      color:#FFFFFF;
+}
+
+
+.aw-widget-current{
+	width: 150px;
+	float: right;
 }
