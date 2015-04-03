@@ -28,9 +28,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 /* CSS Document */
 
+body{
+	background-image:url(Images/background-grey.jpg);
+}
+
 /*---------------------------------------------------------
 Header
 -----------------------------------------------------------*/
+#top_header img {
+	background-color:#FFFFFF;
+}
+
 #top_header img {
 	width: 420px;
 	margin-left:auto;
@@ -64,11 +72,7 @@ nav a:hover {
 	color:#C8BF93;
 }
 
-/*----------------------------------------------------------
-Body
-----------------------------------------------------------*/
-body{
-	   background-image:url(Images/seamless_paper_texture.png);
+
 
 
 /*------------------------------------------------------------
@@ -76,53 +80,45 @@ Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
 		margin-top: 0px;
-		height: 500px;
-		background-image:url(Images/spajumbo.jpg);
-		padding-top: 0px;
-		
+		height: 550px;
+		background-image:url(Images/interior.jpg);
+		position: relative;
+		top:-20px;
 }
 
+.jumbotron p{
+	color:#FFFFFF;
+	/*border:#CFCFCF solid 2px;*/
+	text-align: center;
+	position: relative;
+	top:200px;
+	padding:5px;
+	border-radius: 20px;
+	opacity: .65;
+	letter-spacing: 1px;
 
-.jumbotron .container {
-	    position: relative;
-		top: 15px;
-		margin-top: 0px;
-		padding-top: 0px;
-}
-
-.jumbotron h2 {
-	   position: relative;
-	   left: 80px;
-	   vertical-align: center;
-	   color: #FFFFFF;
-	   font-size: 32px;
-	   text-align: center;
-	   font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	   border: 2px white;
-	   opacity: .65;
-	   border:dotted, #DCDCDC;
-}
-
-#relaxheader {
-	   color:#FFFFFF;
-	   text-align:center;
-	   font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
 /*--------------------------------------------------------------------
 Form
 ----------------------------------------------------------------------*/
+
 .appointment {
 	  position: relative;
 	  margin-left: auto;
 	  margin-right: auto;
 }
 
-form {
-      color:#FFFFFF;
+form{
+	color:#FFFFFF;
 }
 
+#relaxheader {
+	color:#FFFFFF;
+	font-style:italic;	
+}
 
-.aw-widget-current{
-	width: 150px;
-	float: right;
+/*Footer*/
+#spafoot{
+	background-color:#000000;
+	height: 75px;
+	opacity: 0.70;
 }
