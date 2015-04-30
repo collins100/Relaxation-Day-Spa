@@ -281,13 +281,18 @@ tr {
 	color: #F6F6F6;
 	padding-botom: 0 20px;
 	margin: 2px;
-	background: #B4AEAE;
+	
+}
+
+.servDescription {
+	
 }
 
 .sectionRow{
 	/*background:#676542;*/
 	border:#B4AEAE solid;  
 	margin-bottom: 18px;
+	background: #B4AEAE;
 }
 .sectionRow img {
 	float: left;
