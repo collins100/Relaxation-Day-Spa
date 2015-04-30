@@ -213,23 +213,6 @@ form{
 /*-----------------------------------------------------
 Services.html
 -----------------------------------------------------*/
-#services-page-wrap{
-	overflow: hidden;
-	margin: 0 auto;
-	width: 960px;
-}
-
-#services-content .sidebar-right {
-	float: left;
-}
-
-#services-content {
-	width: 649px;
-	padding-right: 28px;
-	border-right: 1px solid #DDD;
-    padding-bottom: 20px;
-}
-
 
 table {
   width: 100%;
@@ -272,35 +255,6 @@ tr {
   border-color: inherit;
 }
 
-#gentle-aside.sidebar-right {
-  float: right;
-}
-
-#gentle-aside {
-  width: 253px;
-  padding-left: 18px;
-  padding-right: 15px;
-  padding-bottom: 30px;
-  border-left: 1px solid #DDD;
-  position: relative;
-  left: -1px;
-  background:#C8C8C8;
-}
-
-#gentle-aside > ul {
-  padding: 0px;
-  list-style-type: none;
- }
- 
- li.widget {
-  font-size: 13px;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
 .clearfix:before,
 .clearfix:after{
 	content: " ";
@@ -315,19 +269,32 @@ li {
 	*zoom: 1;
 }
 
-#services-content .services-page-content h2 {
+
+.servicesMain h2 {
 	font-weight: bold;
 	font-style: normal;
 	color: #FFFFFF;
-	text-align: center;
+	text-align: Left;
 	text-shadow: 0px 0px 0px;
 }
 .rows p {
 	color: #F6F6F6;
-	padding-botom: 20px;
+	padding-botom: 0 20px;
+	margin: 2px;
+	background: #B4AEAE;
 }
- 
+
+.sectionRow{
+	/*background:#676542;*/
+	border:#B4AEAE solid;  
+	margin-bottom: 18px;
+}
 .sectionRow img {
 	float: left;
-	margin: 0 20px 5px 0;
+	margin: 5px 20px 5px 0;
+}
+
+.servicesMain h5 {
+	font-size: 17px;
+	weight: bold;
 }
