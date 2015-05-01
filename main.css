@@ -284,10 +284,20 @@ tr {
 	
 }
 
-.servDescription {
-	
+aside {
+	float: right;
+	margin-top: 5px;
+	color:#FFFEFE;
 }
 
+aside > ul{
+	list-style-type: none;
+	display: block;
+}
+
+aside > li {
+	list-style-type: none;
+}
 .sectionRow{
 	/*background:#676542;*/
 	border:#B4AEAE solid;  
@@ -302,4 +312,61 @@ tr {
 .servicesMain h5 {
 	font-size: 17px;
 	weight: bold;
+}
+
+.main {
+	border-right: #B4AEAE solid 1px;
+	padding-right: 60px;
+}
+
+.pageWrapper{
+	border-top: #B4AEAE solid 1px;
+}
+
+.weatherAside{
+	margin-top: 98px;
+	position: relative;
+	left: 40px;
+	
+}
+
+aside h3{
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+aside h4{
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 18px;
+}
+
+aside p{
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	text-align: left;
+	font-style: italic;
+}
+
+.spaDetails{
+	position: relative;
+	left: 20px;
+	line-height: 180%;
+}
+
+aside{
+	padding-left: 20px;
+}
+
+aside ul {
+	text-align: left;
+	list-style-type:disc;
+	line-height: 180%;
 }
