@@ -51,9 +51,12 @@ Navigation
 .navbar-nav > li{
   padding-left:30px;
   padding-right:30px;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#FFFFFF;
 }
 
-nav{
+.navbar{
 	margin-bottom:0px;
 }
 
@@ -61,8 +64,8 @@ nav{
 	margin-bottom: 0;
 }
 
-.navbar-brand {
-	color:#07471A;
+,navbar-header .navbar-brand {
+	color:#968E5D;
 }
 
 .navbar-inverse .navbar-brand:hover, 
@@ -107,6 +110,7 @@ Jumbotron
     overflow: hidden;
     position: relative;
 	top: -19px;
+	opacity: 0.65;
 }
 
 .rich-content img{
@@ -149,6 +153,7 @@ Jumbotron
 	  margin: 0 auto;
 	  padding: 15px 20px;
       text-align: center;
+	  text-transform:uppercase;
 }
 
 .rich-content-title span {
@@ -190,11 +195,12 @@ form{
 
 #relaxheader {
 	color:#FFFFFF;
-	margin-top: 0;
+	margin-top: 20px;
 	padding: 0;	
 	text-align: center;
 	font-size: 24px;
 	font-weight: 500;
+	text-transform:uppercase;
 }
 
 .weatherForecast {
@@ -207,7 +213,6 @@ form{
 #spafoot{
 	background-color:#000000;
 	height: 75px;
-	opacity: 0.70;
 }
 
 /*-----------------------------------------------------
@@ -314,7 +319,7 @@ aside > li {
 	weight: bold;
 }
 
-.main {
+main {
 	border-right: #B4AEAE solid 1px;
 	padding-right: 60px;
 }
@@ -371,3 +376,166 @@ aside ul {
 	line-height: 180%;
 }
 
+.control-form{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.separator {
+   width: 30%;
+   margin: 40px auto 40px;
+   border-bottom: 2px solid #FFFFFF;
+}
+
+#apppointWrapper{
+   margin: 0 auto;
+   max-width: 800px;
+   color: #ffffff;  
+} 
+
+.control-form h3{
+  font-weight: normal;
+  font-size: 26px;
+  text-transform:uppercase;
+}
+
+.control-form p{
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+.captionDescription{
+	font-size: 13px;
+}
+
+.spacing{
+	padding: 0 7%;
+	align-content:flex-start;
+}
+
+.col .left{
+	width: 35%;
+    margin-right: 10%;
+}
+
+.col .right{
+	width: 63%;	
+}
+
+.control-form .col{
+	display: inline-block;
+    margin-bottom: 0 !important;  
+}
+
+
+#appointWrapper .control-form div{
+	text-align: center;
+}
+
+.control-form .control .select-wrapper {
+   display: block;
+   width: 100%;
+   max-width: 100%;
+   margin: 10px auto;
+   padding: 0;
+   text-align: left;
+   border: 1px solid #cdcdcd;
+}
+
+nav.button-container.centered {
+   text-align: center;
+}
+
+nav.button-container {
+   padding: 1.3em;
+   margin-top: 30px;
+}
+
+.button.box.small {
+  position: relative;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #DDDDDD;
+  border-color: #838383;
+}
+
+.black a {
+  text-decoration: none;
+}
+
+nav .button-container{
+	background-color: #DDDDDD;
+}
+
+.select-wrapper{
+   display: -moz-inline-stack;
+   display: inline-block;
+   vertical-align: middle;
+   zoom: 1;
+   border: none;
+   border-bottom: 1px solid #fff;
+   padding: 0;
+   margin: 0 auto;
+   margin-top: -12px;
+   margin-top: -5px;
+   padding-bottom: 6px;
+}
+
+
+label {
+   cursor: default;
+}
+
+.control-title{
+	display: block;
+    margin: auto;
+    font-size: 12px;
+    font-weight: bold;
+    color:#A8A8A8;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.control-form .control-title .region-dropdown{
+	display: block;
+}
+
+.formSubmit{
+	text-transform:uppercase;
+	background: #B3B3B3;
+	padding: 8px 80px;
+	margin-top: 20px;
+}
+
+#appointWrapper .control-form .control input[type='text'], #appointWrapper .control-form .control input[type='email'], #appointWrapper .control-form .control input[type='tel'], #appointWrapper .control-form .control textarea, #appointWrapper .control-form .control input[type='text'], #appointWrapper .control-form .control input[type='email'], #appointWrapper .control-form .control input[type='tel'], #appointWrapper .control-form .control textarea{
+	-webkit-appearance: none;
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 1px;
+    height: 40px;
+    border: 1px solid #cdcdcd;
+}
+
+input[type="text"], input[type="password"], input[type="tel"], 
+input[type="email"], input[type="number"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	outline: none;
+}
