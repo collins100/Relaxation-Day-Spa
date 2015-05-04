@@ -57,39 +57,89 @@
 
   
  
-<main>  
+<main> 
+<div id="apppointWrapper"> 
   <div class="container">
-           <div class="appointment clearfix">
-               <h4 style="color:#F6F6F6">Book an Appointment Online</h4>
-            <form style="align-content:center">
-               <fieldset>
-               First name<br>
-               <input type="text" name="firstname"> &nbsp;  
-               Last name <br>
-               <input type="text"   name="lastname" size: ><br>
-               Email Address<br>
-               <input type: "text"><br><br>
-               Phone<br>
-               <input type: "number" name="phoneNumber"><br>
-               <select name="Services">
-                   <option value="Deep Massage">Deep Massage</option>
-                   <option value="Accupuncture">Accupuncture</option>
-                   <option value= "Hot Stone Massage">Hot Stone Massage</option>
-                   <option value= "Facials">Facials</option>
-                   <option value="Cold Stone Massage">Cold Stone Massage</option>
-               </select> <br><br>
+           <div class="control-form">
+             <div>
+               <h4>Book An Appointment</h4>
+                 <p> Fill out this form to schedule an appointmen, you can also call us on </p>
+                 <br>
+                 <div class="spacing">
+                   <div>
+                     <div class="col-left">
+                       <labeL>
+                         <span class="control-title">First Name</span>
+                         <span class="control">
+                           <input class = "first-name" type="text" maxlength="15">
+                         </span>
+                       </labeL>
+                     </div>      <!--    end of the col-left div   -->
+                     <div class="col right">
+                       <label>
+                         <span class="control-title">Last Name</span>
+                         <span class="control">
+                           <input class="last-name" type="text" maxlength="15">
+                         </span>
+                       </label>
+                     </div>   <!--       end of the col right div    -->
+                  </div>
+                  <div>
+                    <label>
+                      <span class="control-title">Email Address</span>
+                      <span class="control">
+                        <input class="email" name="email" type="email" maxlength="50">
+                      </span>
+                    </label>
+                 </div>
+                 <div>
+                   <label>
+                     <span class="control-title">Phone</span>
+                     <span class="control">
+                       <input class="phone" name="phone" type="tel" maxlength="20">
+                     </span>
+                   </label>
+                 </div>
+                 <div class="region-dropdown">
+                   <label>
+                     <span class="control-title">Region</span>
+                     <span class="control">
+                       <span class="select-wrapper white region">
+                         <select name="Services">
+                           <option value="Deep Massage">Select a service</option>
+                           <option value="Deep Massage">Deep Massage</option>
+                           <option value="Accupuncture">Accupuncture</option>
+                           <option value= "Hot Stone Massage">Hot Stone Massage</option>
+                           <option value= "Facials">Facials</option>
+                           <option value="Cold Stone Massage">Cold Stone Massage</option>
+                         </select>
+                         <span class="option">
+                           "Select a service"
+                           ::after
+                         </span>
+                       </span>
+                     </span>
+                   </label>
+                 </div>        <!--  end of the region-dropdown div   -->
+                 <div>
+                   <label>
+                     <span class="control-title">Leave us a message</span>
+                       <textarea name="message" rows="5" cols="45">
+                       </textarea>
+                     </span>
+                   </label>
+                 </div>
+                 <nav class="button-container centered">
+                   <a href="#" class="black small box button submit-step1">Submit</a>
+                 </nav>
+             </div>      <!--    end of the spacing div   -->
+             <!--       /form        -->  
         
-               Message:<br>
-              <textarea name="message" rows="5" cols="45">
-              </textarea>
-             <br><br>
-              <input type="submit" style="color:#141414">
-             </fieldset>      
-         </form>
-     </div>         <!--       end of the appointment div-->
+     </div>         <!--       end of the control-form div-->
   </div>           <!--       end of container div     -->
-</main>
 </div>             <!--        end of the pageSpa div    -->
+</div>
+</main>
 
 <footer id="spafoot">
     <div class="container-fluid">
